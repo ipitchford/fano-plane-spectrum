@@ -1,0 +1,36 @@
+target_id: fano-homogeneous-adjacency-spectrum
+search_date: 2026-09-19
+intended_contribution_unit: computation
+claim:
+  exact_statement: >-
+    The monic resultant of lambda*x_i^2 minus the sum of the three opposite-pair
+    products on the seven Fano lines has the ten-factor degree-448 factorization
+    in the supplied report. Separate claims concern explicit eigenvectors,
+    scheme multiplicities, an irreducible degree-eight eigenvector curve,
+    and the absence of real eigenvectors for lambda=2.
+  exclusions: [incidence-matrix spectrum, Heawood graph spectrum, matroid characteristic polynomial, Z-spectrum]
+source:
+  originating_reference: Cooper and Clark, Combinatorial Problems I Like (October 2020)
+  url: https://people.math.sc.edu/cooper/combprob.html
+normalisation:
+  indices: seven points; lines 124,235,346,457,561,672,713
+  scaling: symmetric adjacency tensor entries 1/2 on ordered line permutations
+  symmetries: [PSL(2,7), vertex transitivity]
+sequences:
+  - name: leading nonzero codegree coefficients
+    exact_values: [-336, 55524, -696, -6017746, 220038, 481293561, -34237560, 120204, -30303162330]
+finite_examples:
+  - H1 has polynomial lambda
+  - H2 has polynomial lambda^4
+  - H4 has polynomial lambda^14*(lambda^3-1)^6
+  - H5 bowtie has polynomial lambda^35*(lambda^3-1)^6*(lambda^3-2)^9
+aliases:
+  combinatorics: [Fano plane, Steiner triple system STS(7), projective plane PG(2,2), homogeneous adjacency spectrum]
+  algebra: [tensor eigenvalue resultant, hypermatrix spectrum, eigenvariety, eigenscheme]
+known_invariants:
+  degree: 448
+  distinct_roots: 19
+  unusual_factor: (lambda^2+lambda+2)^52
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora: [arXiv, author problem list, published journal paper, GitHub indexed search]

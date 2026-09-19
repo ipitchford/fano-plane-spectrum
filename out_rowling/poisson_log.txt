@@ -1,0 +1,104 @@
+=== Poisson recursion for the Fano plane: 10 primes, 1 processes, Mon Sep 14 19:41:56 2026
+-- H_1: edges [], deg phi = 1
+   p=2147483647: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483629: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483587: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483579: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483563: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483549: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483543: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483497: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483489: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483477: ok, 3 extra checks, skipped [], 0.0s
+   lift: max coefficient bits = 1 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+-- H_2: edges [], deg phi = 4
+   p=2147483647: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483629: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483587: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483579: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483563: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483549: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483543: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483497: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483489: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483477: ok, 3 extra checks, skipped [], 0.0s
+   lift: max coefficient bits = 1 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+-- H_3: edges [(1, 2, 3)], deg phi = 12
+   p=2147483647: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483629: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483587: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483579: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483563: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483549: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483543: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483497: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483489: ok, 3 extra checks, skipped [], 0.0s
+   p=2147483477: ok, 3 extra checks, skipped [], 0.0s
+   lift: max coefficient bits = 2 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+-- H_4: edges [(1, 2, 3)], deg phi = 32
+   p=2147483647: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483629: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483587: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483579: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483563: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483549: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483543: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483497: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483489: ok, 2 extra checks, skipped [1], 0.0s
+   p=2147483477: ok, 2 extra checks, skipped [1], 0.0s
+   lift: max coefficient bits = 5 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+-- H_5: edges [(1, 2, 3), (1, 4, 5)], deg phi = 80
+   p=2147483647: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483629: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483587: ok, 2 extra checks, skipped [1], 0.2s
+   p=2147483579: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483563: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483549: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483543: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483497: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483489: ok, 2 extra checks, skipped [1], 0.1s
+   p=2147483477: ok, 2 extra checks, skipped [1], 0.1s
+   lift: max coefficient bits = 19 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+-- H_6: edges [(1, 2, 3), (1, 4, 5), (2, 5, 6)], deg phi = 192
+   p=2147483647: ok, 2 extra checks, skipped [1], 1.9s
+   p=2147483629: ok, 2 extra checks, skipped [1], 1.9s
+   p=2147483587: ok, 2 extra checks, skipped [1], 1.8s
+   p=2147483579: ok, 2 extra checks, skipped [1], 1.9s
+   p=2147483563: ok, 2 extra checks, skipped [1], 1.9s
+   p=2147483549: ok, 2 extra checks, skipped [1], 1.8s
+   p=2147483543: ok, 2 extra checks, skipped [1], 1.8s
+   p=2147483497: ok, 2 extra checks, skipped [1], 1.8s
+   p=2147483489: ok, 2 extra checks, skipped [1], 1.8s
+   p=2147483477: ok, 2 extra checks, skipped [1], 1.8s
+   lift: max coefficient bits = 54 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+-- H_7: edges [(1, 2, 3), (1, 4, 5), (1, 6, 7), (2, 5, 6), (3, 5, 7)], deg phi = 448
+   p=2147483647: ok, 2 extra checks, skipped [1], 86.6s
+   p=2147483629: ok, 2 extra checks, skipped [1], 87.2s
+   p=2147483587: ok, 2 extra checks, skipped [1], 86.1s
+   p=2147483579: ok, 2 extra checks, skipped [1], 85.7s
+   p=2147483563: ok, 2 extra checks, skipped [1], 86.7s
+   p=2147483549: ok, 2 extra checks, skipped [1], 85.9s
+   p=2147483543: ok, 2 extra checks, skipped [1], 87.5s
+   p=2147483497: ok, 2 extra checks, skipped [1], 87.7s
+   p=2147483489: ok, 2 extra checks, skipped [1], 87.5s
+   p=2147483477: ok, 2 extra checks, skipped [1], 125.1s
+   lift: max coefficient bits = 161 (modulus bits = 310); stable dropping 1 prime: True; dropping 2: True
+=== finished Mon Sep 14 19:57:23 2026
+codegree coefficients c_d (coefficient of lambda^(448-d)) for d = 0..16:
+   c_0 = 1
+   c_1 = 0
+   c_2 = 0
+   c_3 = -240
+   c_4 = 0
+   c_5 = 0
+   c_6 = 28320
+   c_7 = 0
+   c_8 = 0
+   c_9 = -2190860
+   c_10 = 0
+   c_11 = 0
+   c_12 = 125012034
+   c_13 = 0
+   c_14 = 0
+   c_15 = -5612445168
+   c_16 = 0

@@ -1,0 +1,32 @@
+[
+ {
+  "p": 1000000007,
+  "lambda0": 255512577,
+  "macaulay_phi_mod_p": 904946845,
+  "poisson_phi_mod_p": 904946845,
+  "agree": true,
+  "detM": 652257569,
+  "detMprime": 890023700,
+  "seconds": 10.7
+ },
+ {
+  "p": 1000000007,
+  "lambda0": 636343334,
+  "macaulay_phi_mod_p": 465775591,
+  "poisson_phi_mod_p": 465775591,
+  "agree": true,
+  "detM": 692501961,
+  "detMprime": 629478591,
+  "seconds": 10.1
+ },
+ {
+  "p": 1000000007,
+  "lambda0": 584361684,
+  "macaulay_phi_mod_p": 978906714,
+  "poisson_phi_mod_p": 978906714,
+  "agree": true,
+  "detM": 930520060,
+  "detMprime": 385108865,
+  "seconds": 10.3
+ }
+]

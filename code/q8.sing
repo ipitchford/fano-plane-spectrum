@@ -1,0 +1,21 @@
+LIB "primdec.lib";
+ring r = 0, (x1,x2,x3,x4,x5,x6), dp;
+proc fan(number lam)
+{
+  ideal I = x2*x4 + x5*x6 + x3 - lam*x1^2,
+          x1*x4 + x3*x5 + x6 - lam*x2^2,
+          x2*x5 + x4*x6 + x1 - lam*x3^2,
+          x1*x2 + x3*x6 + x5 - lam*x4^2,
+          x2*x3 + x4 + x1*x6 - lam*x5^2,
+          x3*x4 + x1*x5 + x2 - lam*x6^2,
+          x4*x5 + x2*x6 + x1*x3 - lam;
+  return(I);
+}
+int lam; list L; int i; ideal I;
+for (lam = 0; lam <= 3; lam++) {
+  I = fan(lam);
+  L = primdecGTZ(I);
+  printf("lambda = %s: vdim %s, %s primary components", lam, vdim(std(I)), size(L));
+  for (i=1; i<=size(L); i++) { printf("   component %s: length %s, number of points %s", i, vdim(std(L[i][1])), vdim(std(L[i][2]))); }
+}
+quit;

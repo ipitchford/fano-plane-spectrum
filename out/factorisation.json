@@ -1,0 +1,84 @@
+{
+ "content": 1,
+ "factors": [
+  {
+   "coeffs_low_to_high": [
+    0,
+    1
+   ],
+   "mult": 35
+  },
+  {
+   "coeffs_low_to_high": [
+    -1,
+    1
+   ],
+   "mult": 35
+  },
+  {
+   "coeffs_low_to_high": [
+    -2,
+    1
+   ],
+   "mult": 28
+  },
+  {
+   "coeffs_low_to_high": [
+    -3,
+    1
+   ],
+   "mult": 1
+  },
+  {
+   "coeffs_low_to_high": [
+    1,
+    -1,
+    1
+   ],
+   "mult": 7
+  },
+  {
+   "coeffs_low_to_high": [
+    6,
+    2,
+    1
+   ],
+   "mult": 7
+  },
+  {
+   "coeffs_low_to_high": [
+    1,
+    1,
+    1
+   ],
+   "mult": 21
+  },
+  {
+   "coeffs_low_to_high": [
+    2,
+    1,
+    1
+   ],
+   "mult": 52
+  },
+  {
+   "coeffs_low_to_high": [
+    -2,
+    2,
+    2,
+    1
+   ],
+   "mult": 21
+  },
+  {
+   "coeffs_low_to_high": [
+    1,
+    1,
+    -1,
+    -1,
+    1
+   ],
+   "mult": 28
+  }
+ ]
+}

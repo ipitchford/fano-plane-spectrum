@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this unrefereed computational theorem candidate, preserving its assurance boundary."
+title: "The homogeneous adjacency spectrum of the Fano plane"
+type: article
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+date-released: 2026-09-19
+license: CC0-1.0
+repository-code: "https://github.com/ipitchford/fano-plane-spectrum"

@@ -1,0 +1,11 @@
+{
+  "title": "The homogeneous adjacency spectrum of the Fano plane",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [{"name":"Anonymous"}],
+  "description": "Anonymous AI-assisted unrefereed computational theorem candidate: exact degree-448 homogeneous adjacency resultant for the Fano plane, explicit eigenvectors, H-spectrum and characteristic-zero eigencurve certificates. Producer replay and internal model-assisted editorial review are not unaffiliated validation, formal verification, historical priority or impact. Original prose/data CC0; code MIT.",
+  "access_right": "open",
+  "license": "cc-zero",
+  "version": "0.1.0-candidate",
+  "keywords": ["Fano plane","tensor eigenvalues","resultant","hypergraph spectrum","unrefereed candidate"]
+}

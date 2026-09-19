@@ -1,0 +1,11 @@
+OK   lambda=3, x = (1,...,1): minimal polynomial lam - 3
+OK   lambda=0, x = e_1: minimal polynomial lam
+OK   lambda=1, x = 1_{124}: minimal polynomial lam - 1
+OK   lambda=w (w^2+w+1=0), x=(1,w,0,1,0,0,0): minimal polynomial lam**2 + lam + 1
+OK   lambda^2-lambda+1=0, x = 1 + (lambda-3) e_1: minimal polynomial lam**2 - lam + 1
+OK   lambda^2+2lambda+6=0, x = lambda/3 on {1,2,4}, 1 elsewhere: minimal polynomial lam**2 + 2*lam + 6
+OK   lambda=2, x_p=0, x_v=zeta_L, x_u=zeta_L (cube roots of unity on the lines through p): minimal polynomial lam - 2
+OK   lambda^2+lambda+2=0, x_p=0, x_v=zeta_L, x_u=(2/lambda) zeta_L: minimal polynomial lam**2 + lam + 2
+OK   lambda^3+2lambda^2+2lambda-2=0 (flag ansatz): minimal polynomial lam**3 + 2*lam**2 + 2*lam - 2
+OK   lambda^4-lambda^3-lambda^2+lambda+1=0 (antiflag ansatz): minimal polynomial lam**4 - lam**3 - lam**2 + lam + 1
+ALL OK

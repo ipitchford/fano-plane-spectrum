@@ -1,0 +1,67 @@
+FACTOR t2+t+1 dim 0
+vdim 9
+  component 1: dim 0 vdim 1
+P[1]=x6
+P[2]=x5
+P[3]=x4
+P[4]=x3-1
+P[5]=x2
+P[6]=x1+(-t)
+  component 2: dim 0 vdim 1
+P[1]=x6-1
+P[2]=x5
+P[3]=x4
+P[4]=x3
+P[5]=x2+(-t)
+P[6]=x1
+  component 3: dim 0 vdim 1
+P[1]=x6
+P[2]=x5-1
+P[3]=x4+(-t)
+P[4]=x3
+P[5]=x2
+P[6]=x1
+  component 4: dim 0 vdim 1
+P[1]=x6+(t+1)
+P[2]=x5
+P[3]=x4
+P[4]=x3
+P[5]=x2+(t+1)
+P[6]=x1
+  component 5: dim 0 vdim 1
+P[1]=x6+(-t)
+P[2]=x5
+P[3]=x4
+P[4]=x3
+P[5]=x2-1
+P[6]=x1
+  component 6: dim 0 vdim 1
+P[1]=x6
+P[2]=x5+(-t)
+P[3]=x4-1
+P[4]=x3
+P[5]=x2
+P[6]=x1
+  component 7: dim 0 vdim 1
+P[1]=x6
+P[2]=x5+(t+1)
+P[3]=x4+(t+1)
+P[4]=x3
+P[5]=x2
+P[6]=x1
+  component 8: dim 0 vdim 1
+P[1]=x6
+P[2]=x5
+P[3]=x4
+P[4]=x3+(t+1)
+P[5]=x2
+P[6]=x1+(t+1)
+  component 9: dim 0 vdim 1
+P[1]=x6
+P[2]=x5
+P[3]=x4
+P[4]=x3+(-t)
+P[5]=x2
+P[6]=x1-1
+
+

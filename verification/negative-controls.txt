@@ -1,0 +1,11 @@
+REJECTED coefficient optimized=False
+REJECTED duplicate-prime optimized=False
+REJECTED residue optimized=False
+REJECTED edge optimized=False
+REJECTED equation-sign optimized=False
+REJECTED coefficient optimized=True
+REJECTED duplicate-prime optimized=True
+REJECTED residue optimized=True
+REJECTED edge optimized=True
+REJECTED equation-sign optimized=True
+PASS: 10 semantic negative controls

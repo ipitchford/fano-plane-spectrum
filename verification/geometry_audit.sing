@@ -1,0 +1,24 @@
+LIB "primdec.lib";
+LIB "sing.lib";
+ring r=(0,t),(x1,x2,x3,x4,x5,x6,x7),dp;
+minpoly=t^2+t+2;
+ideal I=x2*x4+x5*x6+x3*x7-t*x1^2,
+ x1*x4+x3*x5+x6*x7-t*x2^2,
+ x2*x5+x4*x6+x1*x7-t*x3^2,
+ x1*x2+x3*x6+x5*x7-t*x4^2,
+ x2*x3+x4*x7+x1*x6-t*x5^2,
+ x3*x4+x1*x5+x2*x7-t*x6^2,
+ x4*x5+x2*x6+x1*x3-t*x7^2;
+ideal G=std(I);
+print("HOMOGENEOUS DIM DEGREE"); dim(G); mult(G);
+hilb(G);
+ideal m=x1,x2,x3,x4,x5,x6,x7;
+ideal Sat=std(sat(G,m));
+print("SATURATED DIM DEGREE"); dim(Sat); mult(Sat);
+hilb(Sat);
+print("SATURATED GENERATORS"); Sat;
+ideal S=std(Sat+minor(jacob(Sat),5));
+print("SINGULAR CONE DIM"); dim(S);
+print("MINIMAL RESOLUTION BETTI");
+resolution rr=mres(Sat,0); betti(rr);
+quit;

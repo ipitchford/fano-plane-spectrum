@@ -1,0 +1,22 @@
+[
+ {
+  "p": 4294967291,
+  "lambda0": 1013818841,
+  "macaulay_phi_mod_p": 2648468512,
+  "poisson_phi_mod_p": 2648468512,
+  "agree": true,
+  "detM": 3972805274,
+  "detMprime": 254513844,
+  "seconds": 13.2
+ },
+ {
+  "p": 4294967291,
+  "lambda0": 1302657534,
+  "macaulay_phi_mod_p": 2161890865,
+  "poisson_phi_mod_p": 2161890865,
+  "agree": true,
+  "detM": 2798460525,
+  "detMprime": 3732741520,
+  "seconds": 13.9
+ }
+]

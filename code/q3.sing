@@ -1,0 +1,17 @@
+LIB "primdec.lib";
+ring r = (0,t), (a,b), lp; minpoly = t^4-t^3-t^2+t+1;
+// antiflag ansatz: x_p = a, x = b on line M (not through p), x = 1 on the other three points
+ideal I = 3*b - t*a^2, b^2 + a + 1 - t*b^2, a*b + 2*b - t;
+ideal G = std(I); printf("dim %s vdim %s", dim(G), vdim(G));
+list L = primdecGTZ(I); int i;
+for (i=1;i<=size(L);i++) { ideal Q=std(L[i][2]); printf("COMPONENT dim %s vdim %s", dim(Q), vdim(Q)); Q; }
+// also the same ansatz with generic lambda: eliminant
+ring r2 = 0, (a,b,lam), lp;
+ideal J = 3*b - lam*a^2, b^2 + a + 1 - lam*b^2, a*b + 2*b - lam;
+ideal E = eliminate(std(J), a*b); factorize(E[1]);
+// flag ansatz with generic lambda: x_p=a, x=b on L\p, x=1 off L
+ring r3 = 0, (a,b,lam), lp;
+ideal K = b^2 + 2 - lam*a^2, a*b + 2 - lam*b^2, a + 2*b - lam;
+ideal E3 = eliminate(std(K), a*b); factorize(E3[1]);
+// point-line ansatz for lambda=2 and lambda^2+lambda+2: x_p=0, x_{v_i}=zeta_i, x_{u_i}=mu*zeta_i handled by hand
+quit;

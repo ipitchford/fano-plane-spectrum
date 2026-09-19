@@ -1,0 +1,14 @@
+LIB "primdec.lib";
+ring r = (0,t), (x1,x3,x4,x5,x6,x7), dp; minpoly = t^2+t+2;
+// x2 = 0 ; lines 124 235 346 457 156 267 137
+ideal I = x5*x6 + x3*x7 - t*x1^2,
+          x1*x4 + x3*x5 + x6*x7,
+          x4*x6 + x1*x7 - t*x3^2,
+          x3*x6 + x5*x7 - t*x4^2,
+          x4*x7 + x1*x6 - t*x5^2,
+          x3*x4 + x1*x5 - t*x6^2,
+          x4*x5 + x1*x3 - t*x7^2;
+ideal G = std(I); printf("dim %s vdim %s", dim(G), vdim(G));
+list L = primdecGTZ(I); int i;
+for (i=1;i<=size(L);i++) { ideal Q=std(L[i][2]); printf("COMPONENT dim %s vdim %s", dim(Q), vdim(Q)); Q; }
+quit;

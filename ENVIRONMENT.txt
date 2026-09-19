@@ -1,0 +1,60 @@
+Python 3.14.7
+Singular for arm64-Darwin version 4.4.1 (44105, 64 bit) Nov 11 2025 16:12:34
+with
+	GMP(6.3.0),NTL(11.6.0),FLINT(3.6.0),
+	omalloc,static readline(8),Plural,DBM,
+	dynamic modules,OM_NDEBUG,SING_NDEBUG,
+	CC:OPTIMIZE,CC:OPTIMIZE_SIZE,AvoidBranching,GenericMult,invTable,
+	eigenvalues,Gauss-Manin system,random=1789851337
+built-in modules: {}
+AC_CONFIGURE_ARGS =  '--disable-silent-rules' '--with-python=/opt/homebrew/opt/python@3.14/bin/python3.14' 'CXXFLAGS=-std=c++11' '--disable-debug' '--disable-dependency-tracking' '--prefix=/opt/homebrew/Cellar/singular/4.4.1p5_3' '--libdir=/opt/homebrew/Cellar/singular/4.4.1p5_3/lib' 'CC=clang' 'CXX=clang++' --enable-omalloc  OMALLOC_LIBS='/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1/omalloc/libomalloc.la' OMALLOC_INCLUDES='-I/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1' --htmldir=${prefix}/share/doc/singular --with-Singular RESOURCES_LIBS='/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1/resources/libsingular_resources.la' RESOURCES_INCLUDES='-I/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1 ' FACTORY_LIBS='/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1/factory/libfactory.la' FACTORY_INCLUDES='-I/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1 -I/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1/factory -I/private/tmp/singular-20260629-49667-5wkvyv/singular-4.4.1/factory/include',
+CC = clang,FLAGS :  -g  -pipe -fno-common -g0 -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -funroll-loops -Qunused-arguments -pthread -pthread,
+CXX = clang++,FLAGS :  -std=c++11 -pipe -fno-common -g0 -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -funroll-loops -fno-rtti -Qunused-arguments -fno-delete-null-pointer-checks -pthread,
+DEFS : ,CPPFLAGS : ,
+LDFLAGS :  -pipe -fno-common -g0 -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -funroll-loops -Qunused-arguments  -rdynamic -flat_namespace -Wl,-bind_at_load -Wl,-undefined,dynamic_lookup,LIBS : -lreadline -lncurses  -lgmp   (ver: Apple LLVM 21.0.0 (clang-2100.0.123.102))
+argv[0]   :	Singular
+SearchPath:	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/singular/LIB:/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/factory:/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../LIB:/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../lib/singular/MOD:/opt/homebrew/Cellar/singular/4.4.1p5_3/lib/singular/MOD:/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin:/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/..
+Singular  :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/Singular
+BinDir    :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin
+ProcDir   :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/..:/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../lib/singular/MOD:/opt/homebrew/Cellar/singular/4.4.1p5_3/lib/singular/MOD
+RootDir   :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/..
+DataDir   :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share
+DefaultDir:	/opt/homebrew/Cellar/singular/4.4.1p5_3
+InfoFile  :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/info/singular.info
+IdxFile   :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/singular/singular.idx
+HtmlDir   :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/doc/singular
+ManualUrl :	https://www.singular.uni-kl.de/Manual/
+ExDir     :	
+emacs     :	
+xemacs    :	
+SingularEmacs:	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/Singular
+EmacsLoad :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/singular/emacs/.emacs-singular
+EmacsDir  :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/singular/emacs
+SingularXterm:	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/Singular
+xterm     :	
+EmacsDir  :	/opt/homebrew/bin/../Cellar/singular/4.4.1p5_3/bin/../share/singular/emacs
+Available HelpBrowsers: safari, safari-www-idx, safari-www, builtin, dummy, emacs, 
+Current HelpBrowser: safari 
+                     SINGULAR                                 /  Development
+ A Computer Algebra System for Polynomial Computations       /   version 4.4.1
+                                                           0<
+ by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \   Jan 2025
+FB Mathematik der Universitaet, D-67653 Kaiserslautern        \
+Auf Wiedersehen.
+Name: sympy
+Version: 1.14.0
+Summary: Computer algebra system (CAS) in Python
+Home-page: https://sympy.org
+Author: SymPy development team
+License: BSD
+Requires: mpmath
+Required-by: 
+---
+Name: python-flint
+Version: 0.9.0
+Summary: Bindings for FLINT
+Home-page: https://github.com/flintlib/python-flint
+Author: 
+License-Expression: MIT AND LGPL-3.0-or-later
+Requires: 
+Required-by: 

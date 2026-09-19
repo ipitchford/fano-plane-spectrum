@@ -1,0 +1,17 @@
+LIB "primdec.lib";
+ring r = 1000003, (x1,x2,x3,x4,x5,x6), dp;
+int lam = 177251;   // a root of t^2+t+2 mod 1000003
+ideal I = x2*x4 + x5*x6 + x3 - lam*x1^2,
+          x1*x4 + x3*x5 + x6 - lam*x2^2,
+          x2*x5 + x4*x6 + x1 - lam*x3^2,
+          x1*x2 + x3*x6 + x5 - lam*x4^2,
+          x2*x3 + x4 + x1*x6 - lam*x5^2,
+          x3*x4 + x1*x5 + x2 - lam*x6^2,
+          x4*x5 + x2*x6 + x1*x3 - lam;
+ideal G = std(I);
+printf("dim %s  mult(degree) %s", dim(G), mult(G));
+list L = minAssGTZ(G);
+printf("number of minimal associated primes: %s", size(L));
+int i;
+for (i=1; i<=size(L); i++) { ideal P = std(L[i]); printf("prime %s: dim %s mult %s ngens %s", i, dim(P), mult(P), size(L[i])); if (dim(P) >= 1) { P; } }
+quit;

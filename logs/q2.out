@@ -1,0 +1,32 @@
+dim 1 vdim -1
+COMPONENT dim 1 vdim -1
+Q[1]=x6+(t+1)*x7
+Q[2]=x4+x5+x6
+Q[3]=2*x3+(-t)*x5
+Q[4]=x1+x3+x7
+Q[5]=x5^2+x5*x6-x6*x7-2*x7^2
+COMPONENT dim 1 vdim -1
+Q[1]=2*x6+(-t)*x7
+Q[2]=x4+(-t-1)*x5+x7
+Q[3]=x3+x4+x7
+Q[4]=x1+x5+x6
+Q[5]=2*x5^2+2*x5*x6-x6*x7-x7^2
+COMPONENT dim 1 vdim -1
+Q[1]=x6+(t+1)*x7
+Q[2]=x4+x5+x7
+Q[3]=x3+(t+1)*x5
+Q[4]=x1+x3+x6
+Q[5]=x5^2+x5*x7+x7^2
+COMPONENT dim 1 vdim -1
+Q[1]=2*x6+(-t)*x7
+Q[2]=2*x4+(t)*x5+2*x6
+Q[3]=x3+x4+x6
+Q[4]=x1+x5+x7
+Q[5]=x5^2+x5*x7+x7^2
+COMPONENT dim 0 vdim 1
+Q[1]=x7
+Q[2]=x6
+Q[3]=x5
+Q[4]=x4
+Q[5]=x3
+Q[6]=x1

@@ -1,0 +1,109 @@
+{
+  "saved_artifacts": "PASS",
+  "crt_bits": 930,
+  "inductive_bounds": [
+    {
+      "m": 1,
+      "bound_bits": 2,
+      "modulus_bits": 372
+    },
+    {
+      "m": 2,
+      "bound_bits": 2,
+      "modulus_bits": 372
+    },
+    {
+      "m": 3,
+      "bound_bits": 2,
+      "modulus_bits": 372
+    },
+    {
+      "m": 4,
+      "bound_bits": 34,
+      "modulus_bits": 372
+    },
+    {
+      "m": 5,
+      "bound_bits": 128,
+      "modulus_bits": 372
+    },
+    {
+      "m": 6,
+      "bound_bits": 306,
+      "modulus_bits": 372
+    }
+  ],
+  "c14": 120204,
+  "symbolic_vectors": "PASS",
+  "automorphisms": 168,
+  "quadrangle_sign_classes": 28,
+  "line_classes_at_one": 21,
+  "characteristic_zero_geometry": "PASS",
+  "real_obstruction": "PASS",
+  "rational_chart_lengths": [
+    17,
+    15,
+    24,
+    1
+  ],
+  "primary_radical_lengths_at_two": [
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "fresh_macaulay": [
+    {
+      "m": 4,
+      "lambda": 17,
+      "prime": 1000000007,
+      "value": 62982955,
+      "denominator": 205562603
+    },
+    {
+      "m": 5,
+      "lambda": 19,
+      "prime": 1000000007,
+      "value": 425772579,
+      "denominator": 411266364
+    },
+    {
+      "m": 7,
+      "lambda": 457,
+      "prime": 1000000007,
+      "value": 823467705,
+      "denominator": 294141048
+    },
+    {
+      "m": 7,
+      "lambda": 911,
+      "prime": 2147483629,
+      "value": 1723822331,
+      "denominator": 1294710705
+    }
+  ],
+  "status": "PASS",
+  "wall_seconds": 61.397,
+  "optimized": false,
+  "assurance": "Producer-side replay; not a fresh full thirty-prime resultant computation or formal proof."
+}

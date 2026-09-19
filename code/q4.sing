@@ -1,0 +1,20 @@
+LIB "solve.lib";
+ring r = 0, (x1,x2,x3,x4,x5,x6), dp;
+// lambda = 2, x7 = 1 ; lines 124 235 346 457 156 267 137
+ideal I = x2*x4 + x5*x6 + x3 - 2*x1^2,
+          x1*x4 + x3*x5 + x6 - 2*x2^2,
+          x2*x5 + x4*x6 + x1 - 2*x3^2,
+          x1*x2 + x3*x6 + x5 - 2*x4^2,
+          x2*x3 + x4 + x1*x6 - 2*x5^2,
+          x3*x4 + x1*x5 + x2 - 2*x6^2,
+          x4*x5 + x2*x6 + x1*x3 - 2;
+ideal G = std(I); printf("vdim %s", vdim(G));
+def R = solve(G, 30, 0, "nodisplay");
+setring R;
+int i; int j;
+for (i=1; i<=size(SOL); i++) {
+  string s = "SOL " + string(i) + ":";
+  for (j=1; j<=size(SOL[i]); j++) { s = s + " " + string(SOL[i][j]); }
+  print(s);
+}
+quit;

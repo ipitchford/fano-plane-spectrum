@@ -1,0 +1,178 @@
+{
+ "T1 point-transitive (|G|=168)": {
+  "partition": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1, 2, 3, 4, 5, 6, 7) = 1": "ELIM 1,lam-3"
+  }
+ },
+ "T2 point stabiliser (24)": {
+  "partition": [
+   [
+    1
+   ],
+   [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1,) = 1": "ELIM 1,lam,lam-3,lam^2-lam+1",
+   "normalise part (2, 3, 4, 5, 6, 7) = 1": "ELIM 1,lam-3,lam^2-lam+1"
+  }
+ },
+ "T3 line stabiliser (24)": {
+  "partition": [
+   [
+    1,
+    2,
+    4
+   ],
+   [
+    3,
+    5,
+    6,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1, 2, 4) = 1": "ELIM 1,lam-3,lam-1,lam^2+2*lam+6",
+   "normalise part (3, 5, 6, 7) = 1": "ELIM 1,lam-3,lam^2+2*lam+6"
+  }
+ },
+ "T4 flag stabiliser (8)": {
+  "partition": [
+   [
+    1
+   ],
+   [
+    5,
+    6
+   ],
+   [
+    2,
+    3,
+    4,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1,) = 1": "ELIM 1,lam,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (5, 6) = 1": "ELIM 1,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (2, 3, 4, 7) = 1": "ELIM 1,lam-3,lam^2-lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2"
+  }
+ },
+ "T5 antiflag stabiliser (6)": {
+  "partition": [
+   [
+    1
+   ],
+   [
+    2,
+    3,
+    5
+   ],
+   [
+    4,
+    6,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1,) = 1": "ELIM 1,lam,lam-3,lam^2-lam+1,lam^2+2*lam+6,lam^4-lam^3-lam^2+lam+1",
+   "normalise part (2, 3, 5) = 1": "ELIM 1,lam-3,lam-1,lam^2-lam+1,lam^2+2*lam+6,lam^4-lam^3-lam^2+lam+1",
+   "normalise part (4, 6, 7) = 1": "ELIM 1,lam,lam-3,lam^2-lam+1,lam^2+2*lam+6,lam^4-lam^3-lam^2+lam+1"
+  }
+ },
+ "T6 two-point stabiliser (4)": {
+  "partition": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    4
+   ],
+   [
+    3,
+    5,
+    6,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1,) = 1": "ELIM 1,lam,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (2,) = 1": "ELIM 1,lam,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (4,) = 1": "ELIM 1,lam,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (3, 5, 6, 7) = 1": "ELIM 1,lam-3,lam^2-lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2"
+  }
+ },
+ "T7 Klein-type (4)": {
+  "partition": [
+   [
+    1
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    7
+   ],
+   [
+    5,
+    6
+   ]
+  ],
+  "results": {
+   "normalise part (1,) = 1": "ELIM 1,lam,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (2, 4) = 1": "ELIM 1,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (3, 7) = 1": "ELIM 1,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2",
+   "normalise part (5, 6) = 1": "ELIM 1,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2"
+  }
+ },
+ "T8 involution (2)": {
+  "partition": [
+   [
+    1
+   ],
+   [
+    2
+   ],
+   [
+    4
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    6,
+    7
+   ]
+  ],
+  "results": {
+   "normalise part (1,) = 1": "ELIM 1,lam,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+lam+2,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2,lam^4-lam^3-lam^2+lam+1",
+   "normalise part (2,) = 1": "ELIM 1,lam,lam-3,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+lam+2,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2,lam^4-lam^3-lam^2+lam+1",
+   "normalise part (4,) = 1": "ELIM 1,lam,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+lam+2,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2,lam^4-lam^3-lam^2+lam+1",
+   "normalise part (3, 5) = 1": "ELIM 1,lam,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+lam+2,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2,lam^4-lam^3-lam^2+lam+1",
+   "normalise part (6, 7) = 1": "ELIM 1,lam,lam-3,lam-2,lam-1,lam^2-lam+1,lam^2+lam+1,lam^2+lam+2,lam^2+2*lam+6,lam^3+2*lam^2+2*lam-2,lam^4-lam^3-lam^2+lam+1"
+  }
+ }
+}

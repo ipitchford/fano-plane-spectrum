@@ -1,0 +1,34 @@
+lambda = 0: vdim 17, 17 primary components
+   component 1: length 1, number of points 1
+   component 2: length 1, number of points 1
+   component 3: length 1, number of points 1
+   component 4: length 1, number of points 1
+   component 5: length 1, number of points 1
+   component 6: length 1, number of points 1
+   component 7: length 1, number of points 1
+   component 8: length 1, number of points 1
+   component 9: length 1, number of points 1
+   component 10: length 1, number of points 1
+   component 11: length 1, number of points 1
+   component 12: length 1, number of points 1
+   component 13: length 1, number of points 1
+   component 14: length 1, number of points 1
+   component 15: length 1, number of points 1
+   component 16: length 1, number of points 1
+   component 17: length 1, number of points 1
+lambda = 1: vdim 15, 6 primary components
+   component 1: length 1, number of points 1
+   component 2: length 4, number of points 2
+   component 3: length 1, number of points 1
+   component 4: length 1, number of points 1
+   component 5: length 4, number of points 2
+   component 6: length 4, number of points 2
+lambda = 2: vdim 24, 6 primary components
+   component 1: length 4, number of points 2
+   component 2: length 4, number of points 2
+   component 3: length 4, number of points 2
+   component 4: length 4, number of points 2
+   component 5: length 4, number of points 2
+   component 6: length 4, number of points 2
+lambda = 3: vdim 1, 1 primary components
+   component 1: length 1, number of points 1

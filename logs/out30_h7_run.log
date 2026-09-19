@@ -1,0 +1,35 @@
+=== H_7 with 30 primes, 2 processes, Mon Sep 14 21:58:38 2026
+   p=2147483629: ok, 1 extra checks, skipped [1, 2], 284.3s
+   p=2147483647: ok, 1 extra checks, skipped [1, 2], 288.7s
+   p=2147483587: ok, 1 extra checks, skipped [1, 2], 280.4s
+   p=2147483579: ok, 1 extra checks, skipped [1, 2], 280.4s
+   p=2147483549: ok, 1 extra checks, skipped [1, 2], 281.9s
+   p=2147483563: ok, 1 extra checks, skipped [1, 2], 294.7s
+   p=2147483543: ok, 1 extra checks, skipped [1, 2], 279.4s
+   p=2147483497: ok, 1 extra checks, skipped [1, 2], 281.1s
+   p=2147483489: ok, 1 extra checks, skipped [1, 2], 276.6s
+   p=2147483477: ok, 1 extra checks, skipped [1, 2], 279.4s
+   p=2147483423: ok, 1 extra checks, skipped [1, 2], 281.0s
+   p=2147483399: ok, 1 extra checks, skipped [1, 2], 277.3s
+   p=2147483323: ok, 1 extra checks, skipped [1, 2], 280.1s
+   p=2147483353: ok, 1 extra checks, skipped [1, 2], 294.5s
+   p=2147483269: ok, 1 extra checks, skipped [1, 2], 288.7s
+   p=2147483249: ok, 1 extra checks, skipped [1, 2], 286.2s
+   p=2147483237: ok, 1 extra checks, skipped [1, 2], 279.1s
+   p=2147483179: ok, 1 extra checks, skipped [1, 2], 282.1s
+   p=2147483137: ok, 1 extra checks, skipped [1, 2], 280.7s
+   p=2147483171: ok, 1 extra checks, skipped [1, 2], 287.9s
+   p=2147483123: ok, 1 extra checks, skipped [1, 2], 272.7s
+   p=2147483077: ok, 1 extra checks, skipped [1, 2], 280.2s
+   p=2147483069: ok, 1 extra checks, skipped [1, 2], 275.9s
+   p=2147483059: ok, 1 extra checks, skipped [1, 2], 280.7s
+   p=2147483033: ok, 1 extra checks, skipped [1, 2], 284.1s
+   p=2147483053: ok, 1 extra checks, skipped [1, 2], 299.3s
+   p=2147483029: ok, 1 extra checks, skipped [1, 2], 279.2s
+   p=2147482951: ok, 1 extra checks, skipped [1, 2], 284.3s
+   p=2147482949: ok, 1 extra checks, skipped [1, 2], 281.6s
+   p=2147482943: ok, 1 extra checks, skipped [1, 2], 280.2s
+   modulus bits = 930  (log2 M = 930.00); max coefficient bits = 207
+   lift stable dropping 1 prime: True; dropping 2: True
+   identical to the 12-prime result: True
+=== finished Mon Sep 14 23:09:22 2026

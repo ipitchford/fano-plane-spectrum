@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "title": "The homogeneous adjacency spectrum of the Fano plane",
+  "version": "0.1.0-candidate",
+  "creator": "Anonymous",
+  "status": "unrefereed-candidate",
+  "normalization": "Symmetric order-three adjacency tensor with entries 1/2 on permutations of each line; A x^2 = lambda x^[2].",
+  "edges": [[1,2,4],[2,3,5],[3,4,6],[4,5,7],[1,5,6],[2,6,7],[1,3,7]],
+  "claims": [
+    {"id":"F1","claim":"Degree-448 resultant factorization with nineteen distinct roots.","evidence":["report/fano_spectrum.md","out30/phi_H7.json","out30/h7_per_prime.json"],"dependency":"Correct modular Poisson recursion and inductively certified CRT lifts."},
+    {"id":"F2","claim":"H-spectrum is exactly 0,1,3 and the real root of lambda^3+2lambda^2+2lambda-2.","evidence":["code/verify_eigenvectors.py","verification/reality_audit.sing"],"dependency":"F1 completeness, explicit witnesses, rational positive sum-of-squares obstruction and point-transitivity."},
+    {"id":"F3","claim":"At each root of lambda^2+lambda+2 the projective eigenscheme is a smooth geometrically irreducible degree-eight genus-three curve.","evidence":["verification/geometry_audit.sing","report/fano_spectrum.md"],"dependency":"Characteristic-zero saturation, Hilbert series, Jacobian minors, minimal resolution and connectedness argument."}
+  ],
+  "notEstablished": ["historical priority","unaffiliated reproduction","external specialist or journal peer review","proof-assistant formal verification","Klein quartic identification","conceptual derivation of multiplicity 52","research acceleration or impact"]
+}

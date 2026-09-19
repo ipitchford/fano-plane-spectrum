@@ -1,0 +1,16 @@
+// Eigenvectors of the Fano plane for each irreducible factor g(t) of phi, over K = Q[t]/(g)
+LIB "primdec.lib";
+LIB "triang.lib";
+proc fanoideal()
+{
+  // lines: 124 235 346 457 156 267 137 ; x7 = 1
+  ideal I;
+  I[1] = x2*x4 + x5*x6 + x3*1 - t*x1^2;      // vertex 1: lines 124,156,137
+  I[2] = x1*x4 + x3*x5 + x6*1 - t*x2^2;      // vertex 2: 124,235,267
+  I[3] = x2*x5 + x4*x6 + x1*1 - t*x3^2;      // vertex 3: 235,346,137
+  I[4] = x1*x2 + x3*x6 + x5*1 - t*x4^2;      // vertex 4: 124,346,457
+  I[5] = x2*x3 + x4*1 + x1*x6 - t*x5^2;      // vertex 5: 235,457,156
+  I[6] = x3*x4 + x1*x5 + x2*1 - t*x6^2;      // vertex 6: 346,156,267
+  I[7] = x4*x5 + x2*x6 + x1*x3 - t*1;        // vertex 7: 457,267,137
+  return(I);
+}

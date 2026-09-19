@@ -1,0 +1,14 @@
+LIB "primdec.lib";
+ring r = (0,t), (x1,x2,x3,x4,x5,x6), dp; minpoly = t^4-t^3-t^2+t+1;
+ideal I = x2*x4 + x5*x6 + x3 - t*x1^2,
+          x1*x4 + x3*x5 + x6 - t*x2^2,
+          x2*x5 + x4*x6 + x1 - t*x3^2,
+          x1*x2 + x3*x6 + x5 - t*x4^2,
+          x2*x3 + x4 + x1*x6 - t*x5^2,
+          x3*x4 + x1*x5 + x2 - t*x6^2,
+          x4*x5 + x2*x6 + x1*x3 - t;
+ideal G = std(I);
+printf("quartic over Q(t): dim %s  vdim %s", dim(G), vdim(G));
+ideal R = std(radical(G));
+printf("quartic: number of distinct points (vdim of radical) %s", vdim(R));
+quit;

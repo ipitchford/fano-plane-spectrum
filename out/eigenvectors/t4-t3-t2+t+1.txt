@@ -1,0 +1,4 @@
+This historical output slot was empty in the input archive. It is not evidence.
+The explicit quartic witness is in code/verify_eigenvectors.py; supplied chart
+analysis is in code/q*.sing and logs/. Current fresh coverage checks the witness,
+not every quartic primary-decomposition claim. See ASSURANCE.md.
