@@ -54,3 +54,9 @@ Empty historical output slots now contain replacement pointers, not invented
 certificates. Original prose/data are CC0; code is MIT. Third-party articles and
 the supplied review are not redistributed. Build the PDF with
 `pandoc report/fano_spectrum.md --pdf-engine=tectonic -o report/fano_spectrum.pdf`.
+
+## Archived identity
+
+Version DOI: https://doi.org/10.5281/zenodo.22850084. GitHub candidate release:
+https://github.com/ipitchford/fano-plane-spectrum/releases/tag/v0.1.0-candidate.
+The DOI provides persistent identity, not external validation.

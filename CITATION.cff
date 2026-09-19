@@ -8,3 +8,5 @@ version: 0.1.0-candidate
 date-released: 2026-09-19
 license: CC0-1.0
 repository-code: "https://github.com/ipitchford/fano-plane-spectrum"
+doi: "10.5281/zenodo.22850084"
+url: "https://doi.org/10.5281/zenodo.22850084"
